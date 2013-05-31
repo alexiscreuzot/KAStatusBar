@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Kastatusbar by kirualex</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Kastatusbar</h1>
+        <p class="header">An ultra-light status bar status bar notification/alert library</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/kirualex/KAStatusBar/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/kirualex/KAStatusBar/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/kirualex/KAStatusBar">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/kirualex">kirualex</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="kastatusbar" class="anchor" href="#kastatusbar"><span class="octicon octicon-link"></span></a>KAStatusBar</h1>
+
+<p>An ultra-light status bar status bar notification/alert library.</p>
+
+<p><img src="http://i.imgur.com/i9l5WUp.png" alt="KAStatusBar"></p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<h3>
+<a name="normal-install" class="anchor" href="#normal-install"><span class="octicon octicon-link"></span></a>Normal install</h3>
+
+<ul>
+<li>Just copy the <code>KAStatusBar/KAStatusBar</code> folder into your project.</li>
+<li>Import KAStatusBar.h from your .pch file</li>
+</ul><h3>
+<a name="using-cocoapods" class="anchor" href="#using-cocoapods"><span class="octicon octicon-link"></span></a>Using Cocoapods</h3>
+
+<p><code>pod 'KAStatusBar', :git =&gt; 'https://github.com/kirualex/KAStatusBar'</code></p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Here is the self-explanatory API. If you don't specify any delay to remove notification, it becomes indeterminate and displays an UIActivityIndicator on the left of your status.</p>
+
+<div class="highlight"><pre><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showWithStatus:</span><span class="p">(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">status</span> <span class="nf">barColor:</span><span class="p">(</span><span class="n">UIColor</span><span class="o">*</span><span class="p">)</span><span class="nv">color</span> <span class="nf">andRemoveAfterDelay:</span><span class="p">(</span><span class="n">NSNumber</span> <span class="o">*</span><span class="p">)</span> <span class="n">delay</span><span class="p">;</span>
+<span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showWithStatus:</span><span class="p">(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">status</span> <span class="nf">andRemoveAfterDelay:</span><span class="p">(</span><span class="n">NSNumber</span> <span class="o">*</span><span class="p">)</span> <span class="n">delay</span><span class="p">;</span>
+<span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showWithStatus:</span><span class="p">(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">status</span> <span class="nf">andBarColor:</span><span class="p">(</span><span class="n">UIColor</span><span class="o">*</span><span class="p">)</span><span class="nv">color</span><span class="p">;</span>
+<span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showWithStatus:</span><span class="p">(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">status</span><span class="p">;</span>
+<span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">dismiss</span><span class="p">;</span>
+</pre></div>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
