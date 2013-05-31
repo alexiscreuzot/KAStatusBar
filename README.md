@@ -25,4 +25,4 @@ Here is the self-explanatory API. If you don't specify any delay to remove notif
 + (void)showWithStatus:(NSString*)status andBarColor:(UIColor*)color;
 + (void)showWithStatus:(NSString*)status;
 + (void)dismiss;
-``
+```
