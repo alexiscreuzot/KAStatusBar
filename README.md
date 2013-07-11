@@ -13,7 +13,8 @@ An ultra-light status bar status bar notification/alert library.
 
 ###Using [cocoapods](http://cocoapods.org)
 
-    pod 'KAStatusBar'
+add this line to your Podfile :
+`pod 'KAStatusBar'`
 
 ##Usage
 
