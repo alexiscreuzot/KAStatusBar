@@ -2,7 +2,7 @@
 
 An ultra-light status bar status bar notification/alert library.
 
-![KAStatusBar](http://i.imgur.com/i9l5WUp.png)
+![KAStatusBar](http://i.imgur.com/UjfjjEm.gif)
 
 ##Install
 
