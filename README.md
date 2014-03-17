@@ -28,6 +28,3 @@ Here is the self-explanatory API. If you don't specify any delay to remove notif
 + (void)dismiss;
 ```
 
-##Support a fellow developer !
-If this code helped you for your project, consider contributing or donating some BTC to `1A37Am7UsJZYdpVGWRiye2v9JBthQrYw9N`
-Thanks !
